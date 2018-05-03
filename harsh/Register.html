@@ -1,0 +1,34 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+<center><span style="font-weight:bold;font-size:30pt">Registration Form For Receivers</span></center>
+<br><br><br>
+<span style="font-size:20pt">
+<a href="Home.php">Home</a>&nbsp;&nbsp;
+<a href="Login.php">Login</a>&nbsp;&nbsp;
+<a href="Discussion.php">Discussion Forum</a>
+</span>
+<br><br><br>
+<p>(<b>Note:</b> All fields are required.)</p>
+<fieldset style="width:70%;">
+<table border="0" cellpadding="4" cellspacing="4" style="width:100%">
+
+<form action="Register.php" method="POST">
+
+<tr><td>Name:</td> <td><input type="text" name="Dname" size="20"></td></tr>
+<tr><td>Age:</td> <td><input type="text" name="Dage" size="20"></td></tr>
+<tr><td>Blood Group:</td> <td><input type="text" name="Dgroup" size="20"></td></tr>
+<tr><td>Complete Address:</td> <td><textarea name="Daddress" rows="3" cols="15"></textarea></td></tr>
+<tr><td>Contact Number:</td> <td><input type="text" name="Dcontact" size="20"></td></tr>
+<tr><td>Email ID:</td> <td><input type="text" name="Demail" size="20"></td></tr>
+<tr><td>Password:</td> <td><input type="password" name="Dpassword" size="20"></td></tr>
+
+<tr><td><input type="button" value="Register" onClick="submit()"></td><td><input type="Reset" value="Reset"></td></tr>
+
+</form>
+</table>
+</fieldset>
+</body>
+</html>

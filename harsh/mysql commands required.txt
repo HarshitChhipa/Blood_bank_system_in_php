@@ -1,0 +1,8 @@
+CREATE DATABASE userinfo;
+
+use userinfo;
+
+create table general(UserID int Auto_increment primary key,Name varchar(30),Age Integer,BGroup Text(2), Address varchar(100), Contact varchar(11),Email varchar(50),Password varchar(256) );
+
+create table forum(Time varchar(20),name varchar(30),Post varchar(1000) );
+
